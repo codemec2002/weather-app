@@ -32,9 +32,9 @@ weatherForm.addEventListener('submit', (event) => {
         else {
             // console.log(data.Address)
             // console.log(data.latitude)
-            messageTwo.textContent = data.Weather_description.forecast
+            messageTwo.textContent = 'Current outside weather is ' + data.Weather_description.forecast
             messageOne.textContent = ''
-            console.log(data.Weather_description.forecast)
+            // console.log(data.Weather_description.forecast)
         }
     })
 })

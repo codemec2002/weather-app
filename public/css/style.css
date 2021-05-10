@@ -5,7 +5,13 @@ head {
     margin: 0 auto;
 
 }
-
+h4 {
+    color : grey;
+    font-family : bold;
+}
+h2 {
+    color : goldenrod;
+}
 img {
     width: 500px;
 }
